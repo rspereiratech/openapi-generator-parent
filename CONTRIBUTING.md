@@ -1,6 +1,6 @@
 # Contributing
 
-This POM has one primary responsibility: keeping dependency and plugin versions consistent across all OpenAPI Generator modules. Contributions are mainly version bumps and the addition of new managed dependencies.
+This POM has one primary responsibility: keeping dependency and plugin versions consistent across all OpenAPI Generator projects. Contributions are mainly version bumps and the addition of new managed dependencies.
 
 ---
 
@@ -20,7 +20,7 @@ To update a dependency:
 
 1. Change the version in the `<properties>` block.
 2. Install the updated POM locally: `mvn install`.
-3. Build and test all child modules to verify nothing is broken.
+3. Build and test all dependent projects to verify nothing is broken.
 4. Update `CHANGELOG.md` under a new version entry.
 
 ---
@@ -66,6 +66,6 @@ Add the plugin to `<build><pluginManagement><plugins>`:
 
 1. Fork the repository and create a branch from `master`.
 2. Make your changes to `pom.xml`.
-3. Install locally and verify child modules build successfully.
+3. Install locally and verify dependent projects build successfully.
 4. Update `CHANGELOG.md`.
 5. Open a pull request describing what was changed and why.

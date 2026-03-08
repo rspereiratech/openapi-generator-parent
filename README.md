@@ -4,13 +4,13 @@
 [![Java 21](https://img.shields.io/badge/Java-21-blue?logo=openjdk)](https://openjdk.org/projects/jdk/21/)
 [![Maven](https://img.shields.io/badge/Maven-3.9+-red?logo=apachemaven)](https://maven.apache.org)
 
-Parent POM providing shared build configuration and centralised dependency management for all OpenAPI Generator modules.
+Parent POM providing shared build configuration and centralised dependency management for all OpenAPI Generator projects.
 
 ---
 
-## Modules
+## Related Projects
 
-| Module | Description |
+| Project | Description |
 |---|---|
 | [`openapi-generator-core`](https://github.com/rspereiratech/openapi-generator-core) | Annotation scanning, type hierarchy traversal, schema resolution, and OpenAPI spec assembly |
 | [`openapi-generator-maven-plugin`](https://github.com/rspereiratech/openapi-generator-maven-plugin) | Maven plugin that invokes the core generator at build time |
@@ -53,7 +53,7 @@ Parent POM providing shared build configuration and centralised dependency manag
 
 ## Installation
 
-This POM must be installed locally before building any of the child modules:
+This POM must be installed locally before building any of the related projects:
 
 ```bash
 git clone git@github.com:rspereiratech/openapi-generator-parent.git
@@ -63,7 +63,7 @@ mvn install
 
 ---
 
-## Usage in Child Modules
+## Usage in Dependent Projects
 
 ```xml
 <parent>
@@ -73,7 +73,7 @@ mvn install
 </parent>
 ```
 
-Child modules inherit all managed dependency versions and build plugin configuration without redeclaring them.
+Projects that declare this as their parent inherit all managed dependency versions and build plugin configuration without redeclaring them.
 
 ---
 
