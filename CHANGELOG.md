@@ -11,13 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Changed
 
 - Bump project version to `1.1.0-SNAPSHOT`
-
----
-
-## [1.0.1] — 2026-03-09
-
-### Changed
-
+- Disabled javadoc doclint (`<doclint>none</doclint>`) to allow HTML tags in Javadoc comments
+- Removed automated release workflow; releases are now performed manually
 - Upgraded `spring-web` from 6.1.14 to 6.2.16 to address CVE-2024-38819, CVE-2025-41234, CVE-2025-41242, and CVE-2025-41249; 6.1.x has reached end of open-source security support
 
 ---
