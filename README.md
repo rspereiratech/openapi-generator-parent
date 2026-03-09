@@ -25,7 +25,7 @@ Parent POM providing shared build configuration and centralised dependency manag
 | Dependency | Version |
 |---|---|
 | `swagger-core` / `swagger-annotations` | 2.2.22 |
-| `spring-web` | 6.1.14 |
+| `spring-web` | 6.2.16 |
 | `slf4j-api` / `slf4j-simple` | 2.0.13 |
 | `lombok` | 1.18.36 |
 | `guava` | 33.2.1-jre |

@@ -6,7 +6,7 @@
 
     <groupId>io.github.rspereiratech</groupId>
     <artifactId>openapi-generator-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>OpenAPI Generator - Parent</name>
@@ -45,7 +45,7 @@
 
         <!-- Dependency versions -->
         <swagger-core.version>2.2.22</swagger-core.version>
-        <spring.version>6.1.14</spring.version>
+        <spring.version>6.2.16</spring.version>
         <slf4j.version>2.0.13</slf4j.version>
         <guava.version>33.2.1-jre</guava.version>
         <lombok.version>1.18.36</lombok.version>

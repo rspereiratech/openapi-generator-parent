@@ -11,7 +11,7 @@ All versions are declared as properties at the top of `pom.xml`:
 ```xml
 <properties>
   <swagger-core.version>2.2.22</swagger-core.version>
-  <spring.version>6.1.14</spring.version>
+  <spring.version>6.2.16</spring.version>
   ...
 </properties>
 ```

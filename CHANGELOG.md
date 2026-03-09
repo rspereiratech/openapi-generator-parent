@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.0.1] — 2026-03-09
+
+### Changed
+
+- Upgraded `spring-web` from 6.1.14 to 6.2.16 to address CVE-2024-38819, CVE-2025-41234, CVE-2025-41242, and CVE-2025-41249; 6.1.x has reached end of open-source security support
+
+---
+
 ## [1.0.0] — 2026-03-08
 
 ### Added
