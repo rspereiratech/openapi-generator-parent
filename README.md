@@ -29,6 +29,7 @@ Parent POM providing shared build configuration and centralised dependency manag
 | `slf4j-api` / `slf4j-simple` | 2.0.13 |
 | `lombok` | 1.18.36 |
 | `guava` | 33.2.1-jre |
+| `jakarta.validation-api` | 3.1.1 |
 | `maven-plugin-api` / `maven-core` | 3.9.9 |
 | `maven-plugin-annotations` | 3.13.1 |
 | `junit-jupiter` | 5.11.3 |

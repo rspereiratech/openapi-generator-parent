@@ -81,6 +81,5 @@ Each `deploy` will sign the artifacts with GPG, upload them to Sonatype Central 
 
 ## After Release
 
-- Update `CHANGELOG.md` with the release date
 - Create a GitHub Release on each repo matching the version tag
 - Artifacts appear on [Maven Central](https://search.maven.org/search?q=g:io.github.rspereiratech) within a few minutes
