@@ -70,7 +70,7 @@ mvn install
 <parent>
   <groupId>io.github.rspereiratech</groupId>
   <artifactId>openapi-generator-parent</artifactId>
-  <version>1.1.0</version>
+  <version>1.2.0-SNAPSHOT</version>
 </parent>
 ```
 
