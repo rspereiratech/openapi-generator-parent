@@ -6,7 +6,7 @@
 
     <groupId>io.github.rspereiratech</groupId>
     <artifactId>openapi-generator-parent</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.2.0</version>
     <packaging>pom</packaging>
 
     <name>OpenAPI Generator - Parent</name>
@@ -34,11 +34,11 @@
         <connection>scm:git:git://github.com/rspereiratech/openapi-generator-parent.git</connection>
         <developerConnection>scm:git:ssh://github.com/rspereiratech/openapi-generator-parent.git</developerConnection>
         <url>https://github.com/rspereiratech/openapi-generator-parent</url>
-        <tag>v1.2.0-SNAPSHOT</tag>
+        <tag>v1.2.0</tag>
     </scm>
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

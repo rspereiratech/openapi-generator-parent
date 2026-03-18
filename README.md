@@ -1,7 +1,7 @@
 # openapi-generator-parent
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Java 21](https://img.shields.io/badge/Java-21-blue?logo=openjdk)](https://openjdk.org/projects/jdk/21/)
+[![Java 17](https://img.shields.io/badge/Java-17+-blue?logo=openjdk)](https://openjdk.org/projects/jdk/17/)
 [![Maven](https://img.shields.io/badge/Maven-3.9+-red?logo=apachemaven)](https://maven.apache.org)
 
 Parent POM providing shared build configuration and centralised dependency management for all OpenAPI Generator projects.
@@ -45,7 +45,7 @@ Parent POM providing shared build configuration and centralised dependency manag
 
 ### Build Configuration
 
-- Java 21 source and target compatibility
+- Java 17 source and target compatibility
 - UTF-8 encoding
 - Lombok annotation processor configured on the compiler plugin
 - `-parameters` compiler flag enabled (required for Spring MVC parameter name resolution)
