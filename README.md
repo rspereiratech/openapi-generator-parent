@@ -1,8 +1,11 @@
 # openapi-generator-parent
 
+[![Build](https://img.shields.io/github/actions/workflow/status/rspereiratech/openapi-generator-parent/ci.yml?branch=master&label=Build)](https://github.com/rspereiratech/openapi-generator-parent/actions/workflows/ci.yml)
+[![CodeQL](https://img.shields.io/github/actions/workflow/status/rspereiratech/openapi-generator-parent/codeql.yml?branch=master&label=CodeQL)](https://github.com/rspereiratech/openapi-generator-parent/security/code-scanning)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Java 17](https://img.shields.io/badge/Java-17+-blue?logo=openjdk)](https://openjdk.org/projects/jdk/17/)
 [![Maven](https://img.shields.io/badge/Maven-3.9+-red?logo=apachemaven)](https://maven.apache.org)
+[![Donate](https://img.shields.io/badge/Donate-Crypto-2ECC71?logo=bitcoin&logoColor=white)](https://nowpayments.io/donation/rspereiratech)
 
 Parent POM providing shared build configuration and centralised dependency management for all OpenAPI Generator projects.
 
@@ -75,6 +78,16 @@ mvn install
 ```
 
 Projects that declare this as their parent inherit all managed dependency versions and build plugin configuration without redeclaring them.
+
+---
+
+## Support
+
+If you find this project useful, consider supporting its development:
+
+[![Donate](https://img.shields.io/badge/Donate-Crypto-2ECC71?logo=bitcoin&logoColor=white)](https://nowpayments.io/donation/rspereiratech)
+
+Crypto donations via [NOWPayments](https://nowpayments.io/donation/rspereiratech) — supports BTC, ETH, USDT and many others.
 
 ---
 
