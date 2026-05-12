@@ -36,16 +36,3 @@ jobs:
 
       - name: Build and verify
         run: mvn -B -ntp --settings ci-settings.xml clean verify
-
-  trigger-downstream:
-    name: Trigger downstream builds
-    needs: build
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Trigger core build
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
-          repository: rspereiratech/openapi-generator-core
-          event-type: upstream-updated
