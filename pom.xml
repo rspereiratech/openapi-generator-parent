@@ -63,8 +63,8 @@
         <slf4j.version>2.0.13</slf4j.version>
         <guava.version>33.2.1-jre</guava.version>
         <lombok.version>1.18.36</lombok.version>
-        <junit-jupiter.version>5.11.3</junit-jupiter.version>
-        <mockito.version>5.14.2</mockito.version>
+        <junit-jupiter.version>6.0.3</junit-jupiter.version>
+        <mockito.version>5.23.0</mockito.version>
 
         <!-- Build plugin versions -->
         <maven-plugin-api.version>3.9.9</maven-plugin-api.version>
