@@ -58,7 +58,7 @@
 
         <!-- Dependency versions -->
         <jakarta-validation.version>3.1.1</jakarta-validation.version>
-        <swagger-core.version>2.2.55</swagger-core.version>
+        <swagger-core.version>3.0.0</swagger-core.version>
         <spring.version>6.2.19</spring.version>
         <slf4j.version>2.0.20</slf4j.version>
         <guava.version>33.8.0-jre</guava.version>
